@@ -89,7 +89,7 @@ screen story_main():
     # 鍵盤行為：左鍵/空白/Enter 前進；右鍵/Esc 無動作
     key "dismiss" action Return()
     key "game_menu" action NullAction()
-        # 右上角導航（維持既有行為，不改 label 名）
+    # 右上角導航（維持既有行為，不改 label 名）
     hbox:
         xalign 0.95 yalign 0.05
         spacing 10
