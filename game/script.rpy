@@ -44,7 +44,7 @@ define vocabulary = {
 # Python 處理函數
 init python:
     # 全域變數
-    current_display_text = text
+    current_display_text = ""
     current_chapter = 1
 
     # 文字處理函數
