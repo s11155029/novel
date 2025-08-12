@@ -87,31 +87,25 @@ init python:
 # Python 處理函數
 init python:
     # 全域變數
-    current_display_text = ""
+    current_display_text = text
     current_chapter = 1
-    
-    # 文字處理函數 - 使用新的高亮機制
+
+    # 文字處理函數 - 使用高亮機制
     def set_story_text(text):
         global current_display_text
-        current_display_text = tag_vocab(text)
-    
+        current_display_text = text
+
     def next_chapter():
         renpy.jump("ch2_start")
-    
+
     def previous_chapter():
         renpy.jump("ch1_start")
-    
-    
-    for chinese, english in vocabulary.items():
-        if chinese in result:
-            result = result.replace(
-                chinese,
-                "{a=vocab:" + chinese + "}{color=#ffcc66}{u}" + chinese + "{/u}{/color}{/a}"
-            )
-    return result
 
-    config.hyperlink_handlers["vocab"] = lambda link: renpy.show_screen("vocab_tooltip", word=link.split(":")[-1])
-
+    # 點擊詞彙顯示 Tooltip（必要）
+    config.hyperlink_handlers["vocab"] = lambda link: renpy.show_screen(
+        "vocab_tooltip",
+        word=link.split(":")[-1] if link else ""
+    )
 # 聲明遊戲角色
 define narrator = Character(None, what_color="#ffffff")
 define albert = Character("亞伯特", color="#87ceeb")
@@ -139,18 +133,7 @@ screen vocab_tooltip(word):
 # 故事顯示介面 - 修正點擊邏輯並加入懸浮功能
 screen story_main():
     modal True
-
-    frame:
-        xalign 0.5 yalign 0.85
-        xsize 1000 ysize 220
-        background "#000000cc"
-        padding (40, 25)
-
-        text current_display_text:
-            size 22
-            color "#ffffff"
-            line_spacing 5
-            hyperlinks True
+    use vocab_textbox(current_display_text)
 
     # 鍵盤行為：左鍵/空白/Enter 前進；右鍵/Esc 無動作
     key "dismiss" action Return()
@@ -159,12 +142,9 @@ screen story_main():
     hbox:
         xalign 0.95 yalign 0.05
         spacing 10
-        textbutton "首頁" action MainMenu():
-            text_size 16
-        textbutton "前章" action Function(previous_chapter):
-            text_size 16
-        textbutton "下章" action Function(next_chapter):
-            text_size 16
+        textbutton "首頁" action MainMenu() text_size 16
+        textbutton "前章" action Function(previous_chapter) text_size 16
+        textbutton "下章" action Function(next_chapter) text_size 16
 
 
 
