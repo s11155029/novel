@@ -41,56 +41,13 @@ define vocabulary = {
     "葬禮": "funeral"
 }
 
-# ------------- 高亮函式 ---------------
-init python:
-    def tag_vocab(text):
-        """
-        將句子中的詞彙替換為超連結 + 金色底線。
-        使用標記位置方法避免重疊。
-        """
-        if not text:
-            return text
-            
-        # 找到所有詞彙的位置
-        matches = []
-        for word in vocabulary.keys():
-            start = 0
-            while True:
-                pos = text.find(word, start)
-                if pos == -1:
-                    break
-                matches.append((pos, pos + len(word), word))
-                start = pos + 1
-        
-        # 按位置排序，移除重疊
-        matches.sort()
-        filtered_matches = []
-        for start, end, word in matches:
-            # 檢查是否與已有匹配重疊
-            overlap = False
-            for existing_start, existing_end, existing_word in filtered_matches:
-                if not (end <= existing_start or start >= existing_end):
-                    overlap = True
-                    break
-            if not overlap:
-                filtered_matches.append((start, end, word))
-        
-        # 從後往前替換，避免位置偏移
-        filtered_matches.reverse()
-        result = text
-        for start, end, word in filtered_matches:
-            replacement = "{a=vocab:" + word + "}{color=#ffcc66}{u}" + word + "{/u}{/color}{/a}"
-            result = result[:start] + replacement + result[end:]
-        
-        return result
+# 預設全域變數
+default current_display_text = ""
+default current_chapter = 1
 
 # Python 處理函數
 init python:
-    # 全域變數
-    current_display_text = text
-    current_chapter = 1
-
-    # 文字處理函數 - 使用高亮機制
+    # 文字處理函數
     def set_story_text(text):
         global current_display_text
         current_display_text = text
@@ -100,35 +57,25 @@ init python:
 
     def previous_chapter():
         renpy.jump("ch1_start")
-
-    # 點擊詞彙顯示 Tooltip（必要）
-    config.hyperlink_handlers["vocab"] = lambda link: renpy.show_screen(
-        "vocab_tooltip",
-        word=link.split(":")[-1] if link else ""
-    )
 # 聲明遊戲角色
 define narrator = Character(None, what_color="#ffffff")
 define albert = Character("亞伯特", color="#87ceeb")
 
 # 詞彙提示框 - 懸浮版本
 screen vocab_tooltip(word):
-    modal True
-    key "game_menu" action Hide("vocab_tooltip")  # 右鍵關閉
-    
     if word in vocabulary:
         frame:
             xalign 0.85 yalign 0.5
             padding (20, 15)
             background "#1a1a1aee"
-            
+
             vbox:
                 spacing 5
                 text "詞彙解釋" size 14 color "#888888"
                 text word size 18 color "#ffcc66" bold True
-                text "▼" size 12 color "#888888"  
+                text "▼" size 12 color "#888888"
                 text vocabulary[word] size 16 color "#87ceeb"
                 null height 10
-                textbutton "關閉" action Hide("vocab_tooltip") text_size 14
 
 # 故事顯示介面 - 修正點擊邏輯並加入懸浮功能
 screen story_main():
@@ -138,7 +85,7 @@ screen story_main():
     # 鍵盤行為：左鍵/空白/Enter 前進；右鍵/Esc 無動作
     key "dismiss" action Return()
     key "game_menu" action NullAction()
-        # 右上角導航（維持既有行為，不改 label 名）
+    # 右上角導航（維持既有行為，不改 label 名）
     hbox:
         xalign 0.95 yalign 0.05
         spacing 10
