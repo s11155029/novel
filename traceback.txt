@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 195, in script
+    python:
+  File "renpy/common/00start.rpy", line 196, in <module>
+    renpy.execute_default_statement(True)
+  File "renpy/common/00console.rpy", line 1141, in execute_default
+    default _console.traced_expressions = _console.TracedExpressionsList()
+Exception: store._console.traced_expressions is being given a default a second time.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 195, in script
+    python:
+  File "E:\renpy\renpy\ast.py", line 834, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "E:\renpy\renpy\python.py", line 1187, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 196, in <module>
+    renpy.execute_default_statement(True)
+  File "E:\renpy\renpy\exports\statementexports.py", line 372, in execute_default_statement
+    i.execute_default(start)
+  File "renpy/common/00console.rpy", line 1141, in execute_default
+    default _console.traced_expressions = _console.TracedExpressionsList()
+Exception: store._console.traced_expressions is being given a default a second time.
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.7.25031702
+出征 1.0
+Thu Aug 28 04:03:22 2025

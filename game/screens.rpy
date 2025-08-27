@@ -86,7 +86,7 @@ screen vocab_tooltip(word_data):
     if word_data:
         frame:
             style "vocab_tooltip_frame"
-            at_list [vocab_tooltip_appear]
+            at [vocab_tooltip_appear]
             xpos renpy.get_mouse_pos()[0] + 20
             ypos renpy.get_mouse_pos()[1] - 50
             

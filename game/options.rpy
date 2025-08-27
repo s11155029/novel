@@ -1,4 +1,5 @@
 ﻿# game/options.rpy
+define config.console = False
 define config.name = _("出征")
 define gui.show_name = True
 define config.version = "1.0"
