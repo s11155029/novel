@@ -33,6 +33,20 @@ define gui.title_text_size = 50
 define gui.main_menu_background = "gui/main_menu.png"
 define gui.game_menu_background = "gui/game_menu.png"
 
+# Buttons
+define gui.button_borders = Borders(6, 6, 6, 6)
+define gui.button_tile = False
+define gui.button_text_borders = Borders(6, 6, 6, 6)
+define gui.button_xpadding = 6
+define gui.button_ypadding = 3
+
+# Expose defaults for Ren'Py's gui.button_properties
+define button_borders = gui.button_borders
+define button_tile = gui.button_tile
+define button_text_borders = gui.button_text_borders
+define button_xpadding = gui.button_xpadding
+define button_ypadding = gui.button_ypadding
+
 # Dialogue
 define gui.textbox_height = 240
 define gui.textbox_yalign = 1.0
