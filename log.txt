@@ -1,436 +1,34 @@
-2025-08-12 00:42:32 UTC
+2025-08-12 08:24:00 UTC
 Windows-10-10.0.26100
 Ren'Py 8.3.7.25031702
 
-Early init took 0.06s
-Loading error handling took 0.03s
-Loading script took 0.23s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 105: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.24s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 159.07s
-Loading error handling took 0.01s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 125: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 159.87s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 125: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 160.46s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 125: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.22s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 183.00s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 105: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 183.54s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 105: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 184.13s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 105: expected an indented block
-    config.hyperlink_focus = lambda link: (
-     ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.28s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 831.02s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 169: end of line expected.
-    textbutton "首頁" action MainMenu():text_size 16
-                                      ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 831.75s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 169: end of line expected.
-    textbutton "首頁" action MainMenu():text_size 16
-                                      ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.22s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 832.40s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 169: end of line expected.
-    textbutton "首頁" action MainMenu():text_size 16
-                                      ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.22s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2248.92s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 169: textbutton expects a non-empty block.
-    textbutton "首頁" action MainMenu():
-                                      ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2265.02s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 170: 'text_size' is not a keyword argument or valid child of the hbox statement.
-    text_size 16
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2265.65s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 170: 'text_size' is not a keyword argument or valid child of the hbox statement.
-    text_size 16
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.22s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2266.23s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 170: 'text_size' is not a keyword argument or valid child of the hbox statement.
-    text_size 16
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2275.34s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 170: 'text_size' is not a keyword argument or valid child of the hbox statement.
-    text_size 16
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2275.93s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 170: 'text_size' is not a keyword argument or valid child of the hbox statement.
-    text_size 16
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.23s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2312.49s
-Loading error handling took 0.01s
-Loading script took 0.12s
-Loading save slot metadata took 0.01s
+Early init took 0.08s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.03s
 Loading persistent took 0.00s
 
 Full traceback:
-  File "game/script.rpy", line 88, in script
+  File "game/script.rpy", line 45, in script
     init python:
   File "E:\renpy\renpy\ast.py", line 834, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "E:\renpy\renpy\python.py", line 1187, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-  File "E:\renpy\renpy\defaultstore.py", line 93, in __getattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.hyperlink_leave is not a known configuration variable.
+  File "game/script.rpy", line 47, in <module>
+    current_display_text = text
+NameError: name 'text' is not defined
 
 While running game code:
-  File "game/script.rpy", line 88, in script
+  File "game/script.rpy", line 45, in script
     init python:
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-Exception: config.hyperlink_leave is not a known configuration variable.
+  File "game/script.rpy", line 47, in <module>
+    current_display_text = text
+NameError: name 'text' is not defined
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 0.28s
+Interface start took 0.42s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -443,117 +41,36 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
 Maximum texture size: 4096x4096
 Resetting cache.
-Early init took 2313.25s
-Loading error handling took 0.02s
-Loading script took 0.10s
-Loading save slot metadata took 0.01s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "E:\renpy\renpy\ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy\python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-  File "E:\renpy\renpy\defaultstore.py", line 93, in __getattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.hyperlink_leave is not a known configuration variable.
-
-While running game code:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-Exception: config.hyperlink_leave is not a known configuration variable.
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.27s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2315.27s
-Loading error handling took 0.01s
-Loading script took 0.10s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "E:\renpy\renpy\ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy\python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-  File "E:\renpy\renpy\defaultstore.py", line 93, in __getattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.hyperlink_leave is not a known configuration variable.
-
-While running game code:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-Exception: config.hyperlink_leave is not a known configuration variable.
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: Disabled thread optimizations.
-Interface start took 0.27s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'NVIDIA Corporation'"
-Renderer: b'NVIDIA GeForce RTX 3050 Ti Laptop GPU/PCIe/SSE2'
-Version: b'4.6.0 NVIDIA 566.07'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 974) drawable=(1732, 974)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2351.17s
+Early init took 1059.39s
 Loading error handling took 0.02s
 Loading script took 0.12s
 Loading save slot metadata took 0.01s
 Loading persistent took 0.00s
-
-Full traceback:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "E:\renpy\renpy\ast.py", line 834, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "E:\renpy\renpy\python.py", line 1187, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-  File "E:\renpy\renpy\defaultstore.py", line 93, in __getattr__
-    raise Exception('config.%s is not a known configuration variable.' % (name))
-Exception: config.hyperlink_leave is not a known configuration variable.
-
-While running game code:
-  File "game/script.rpy", line 88, in script
-    init python:
-  File "game/script.rpy", line 111, in <module>
-    if hasattr(config, "hyperlink_focus") and hasattr(config, "hyperlink_leave"):
-Exception: config.hyperlink_leave is not a known configuration variable.
+Running init code took 0.03s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\wen\\AppData\\Roaming/RenPy/backups\\novel':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: Disabled thread optimizations.
-Interface start took 0.27s
+Creating interface object took 0.19s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.21s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
